@@ -1,0 +1,19 @@
+@api = http://localhost:4000/products
+
+GET {{api}}
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+  "PRODUCTO_ID": 1411234,
+  "DESCRIPCION": "DOG SELECTION CRIADORES CACHORRO X21",
+  "PESO": 21,
+  "COSTO": 111,
+  "PRECIO_VENTA": 222,
+  "PRECIO_VENTA_MAY": 123,
+  "SUBFAMILIA": "DOG SELECTION",
+  "FAMILIA": "PETFOOD SALADILLO",
+  "PROVEEDOR_ID": 1
+}
